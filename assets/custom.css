@@ -1,0 +1,67 @@
+body, .blocoA, h1, p, h3 {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: content-box;
+}
+
+header, .blocoA {
+    background-image: url(./images/bg-hero-desktop.svg);
+
+}
+/*HEADER*/
+
+header {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#logo {
+    height: 30px;
+    padding: 50px;
+}
+
+#try-free {
+    width: 150px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #888888;
+    border: #ffffff;
+    margin: 50px;
+}
+
+/*BLOCO A */
+.blocoA {
+    border: solid 5px black;
+    height: 500px;
+    max-width: 1300px;
+    margin: 0 AUTO;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blocoA h1  {
+    border: 2px solid pink;
+    max-width: 450px;
+    padding:  150px 30px 10px 50px ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.blocoA p {
+    border: 2px solid darkblue;
+    max-width: 450px;
+    margin: 0;
+    padding:  0px 30px 10px 50px ;
+}
+
+.img-mockups {
+    max-width: 80%;
+    display: block;
+    
+    flex: 1 1 150px;
+}
